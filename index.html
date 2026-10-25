@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valheim — Explore the Tenth World</title>
+  <meta name="description" content="A simple fan showcase of Valheim: Viking survival, base building, four biomes, longships, and the Forsaken.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/hero-longship.jpg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Valheim — back to top">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M12 2 3 7v10l9 5 9-5V7l-9-5Zm0 3.2 6 3.3v1.8l-6 9-6-9V8.5l6-3.3Zm0 4.1L9.2 12h1.9v5h1.8v-5h1.9L12 9.3Z" fill="currentColor"/>
+        </svg>
+        <span>Valheim</span>
+      </a>
+      <nav aria-label="Primary">
+        <ul class="nav">
+          <li><a href="#world">World</a></li>
+          <li><a href="#biomes">Biomes</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero__media" aria-hidden="true">
+        <img src="assets/hero-longship.jpg" alt="" width="1920" height="1080" fetchpriority="high">
+      </div>
+      <div class="container hero__content">
+        <p class="eyebrow">A Viking survival adventure</p>
+        <h1 class="hero__title" id="hero-title">
+          <span class="hero__name">Valheim</span>
+          <span class="hero__sub">Explore the Tenth World</span>
+        </h1>
+        <p class="hero__text">Gather. Build. Sail. Die. Return. A world shaped by Norse myth awaits — and every shore is only the beginning.</p>
+        <a class="button" href="#world">Begin Your Saga <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="section" id="world" aria-labelledby="world-title">
+      <div class="container split">
+        <div class="split__copy">
+          <p class="eyebrow">The tenth world</p>
+          <h2 id="world-title">Death is not the end.</h2>
+          <p class="lede">Valheim is a survival and exploration game set in a procedurally generated world inspired by Norse mythology. Shipwrecked with nothing but a stone axe, you gather, craft, and build your way toward a place worth defending.</p>
+          <ul class="pillars">
+            <li>
+              <span class="pillars__num">01</span>
+              <h3>Survive</h3>
+              <p>Hunt, forage, and cook. Keep a fire burning through the rain, the cold, and whatever is watching from the treeline.</p>
+            </li>
+            <li>
+              <span class="pillars__num">02</span>
+              <h3>Build</h3>
+              <p>Raise a longhouse, a farm, and a palisade. Every beam, gate, and hearth is placed by your hand.</p>
+            </li>
+            <li>
+              <span class="pillars__num">03</span>
+              <h3>Explore</h3>
+              <p>Follow the coast, cross open water, and push into lands that were not meant for you.</p>
+            </li>
+          </ul>
+        </div>
+        <figure class="split__media">
+          <img src="assets/about-camp.jpg" alt="A campfire, canvas tent, supply cart, and tamed lox in a pine forest at dusk." width="1200" height="675" loading="lazy">
+          <figcaption>A quiet camp beneath the pines.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="biomes" aria-labelledby="biomes-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Read the land</p>
+          <h2 id="biomes-title">Four biomes. Four kinds of trouble.</h2>
+          <p>The tenth world is generous until it is not. Learn what each land asks of you before you make camp.</p>
+        </div>
+        <div class="biomes">
+          <article class="biome biome--meadows">
+            <div class="biome__media">
+              <img src="assets/biome-meadows.jpg" alt="A sunlit meadow with birch trees, boulders, and a boar grazing in the grass." width="900" height="506" loading="lazy">
+            </div>
+            <div class="biome__body">
+              <div class="biome__top">
+                <h3>Meadows</h3>
+                <span class="tag">Start here</span>
+              </div>
+              <p>Sunlit grass, quiet water, and your first safe fire. A gentle start before the world shows its teeth.</p>
+            </div>
+          </article>
+          <article class="biome biome--black-forest">
+            <div class="biome__media">
+              <img src="assets/biome-black-forest.jpg" alt="A blue-skinned troll standing in a sunlit forest clearing." width="900" height="506" loading="lazy">
+            </div>
+            <div class="biome__body">
+              <div class="biome__top">
+                <h3>Black Forest</h3>
+                <span class="tag">Danger rising</span>
+              </div>
+              <p>Old pines, copper veins, and trolls large enough to redecorate a clearing. Watch the treeline.</p>
+            </div>
+          </article>
+          <article class="biome biome--swamp">
+            <div class="biome__media">
+              <img src="assets/biome-swamp.jpg" alt="A towering, tree-like abomination in a dark, flooded swamp." width="900" height="506" loading="lazy">
+            </div>
+            <div class="biome__body">
+              <div class="biome__top">
+                <h3>Swamp</h3>
+                <span class="tag">Danger severe</span>
+              </div>
+              <p>Cold water, drowned halls, and draugr that do not tire. The iron here is worth the rot.</p>
+            </div>
+          </article>
+          <article class="biome biome--plains">
+            <div class="biome__media">
+              <img src="assets/biome-plains.jpg" alt="A torchlit expedition crossing a smoking tar pit in the misty Plains." width="900" height="506" loading="lazy">
+            </div>
+            <div class="biome__body">
+              <div class="biome__top">
+                <h3>Plains</h3>
+                <span class="tag">Danger deadly</span>
+              </div>
+              <p>Golden grass hides fuling camps, tar pits, and the occasional rampaging lox. Keep your escape route.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features" aria-labelledby="features-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Your story to write</p>
+          <h2 id="features-title">Build. Sail. Rise.</h2>
+          <p>There is no single path through Valheim — only the one you make.</p>
+        </div>
+        <div class="features">
+          <article class="feature">
+            <div class="feature__media">
+              <img src="assets/feature-build.jpg" alt="The lantern-lit interior of a Viking longhouse with carved beams, benches, and a raised seat." width="1000" height="563" loading="lazy">
+            </div>
+            <div class="feature__body">
+              <p class="kicker">Build</p>
+              <h3>A hall to come home to</h3>
+              <p>Raise a timber hall, a farm, and a palisade. Every beam is yours to place, from a first campfire to a fortress that can hold back a troll.</p>
+            </div>
+          </article>
+          <article class="feature">
+            <div class="feature__media">
+              <img src="assets/hero-longship.jpg" alt="A Viking longship with a striped sail and carved dragon prow cutting across bright blue water." width="1920" height="1080" loading="lazy">
+            </div>
+            <div class="feature__body">
+              <p class="kicker">Sail</p>
+              <h3>Chase the horizon</h3>
+              <p>Load the hold and follow the shore — or trust the wind and cross open water. Longships carry ore, crew, and the promise of a new coast.</p>
+            </div>
+          </article>
+          <article class="feature">
+            <div class="feature__media">
+              <img src="assets/feature-boss.jpg" alt="A lone Viking facing a towering, glowing-eyed colossus beneath a green aurora." width="1000" height="563" loading="lazy">
+            </div>
+            <div class="feature__body">
+              <p class="kicker">Fight</p>
+              <h3>Stand before the Forsaken</h3>
+              <p>Summon Eikthyr, The Elder, and the other Forsaken. Each is a test of your gear, your preparation, and your nerve.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-head section-head--row">
+          <div>
+            <p class="eyebrow">A closer look</p>
+            <h2 id="gallery-title">Scenes from the Tenth World</h2>
+            <p>Hover, focus, or tap a scene to change the preview.</p>
+          </div>
+          <button class="button button--ghost" id="gallery-reset" type="button">Reset preview</button>
+        </div>
+        <figure class="gallery">
+          <div class="preview">
+            <img id="image" src="assets/gallery-eikthyr.jpg" alt="A towering stag with glowing antlers stands in a dark forest at night." width="1100" height="619" loading="lazy">
+          </div>
+          <figcaption class="preview__caption">
+            <span class="preview__count" id="preview-count">01 / 06</span>
+            <span id="image-caption" aria-live="polite">Something stirs beneath the pines.</span>
+          </figcaption>
+          <div class="thumbs" id="gallery-thumbs" role="group" aria-label="Gallery thumbnails">
+            <button class="thumb is-active" type="button" data-number="01 / 06" data-caption="Something stirs beneath the pines." aria-label="Preview: Something stirs beneath the pines.">
+              <img src="assets/gallery-eikthyr.jpg" alt="A towering stag with glowing antlers stands in a dark forest at night." width="1100" height="619" loading="lazy">
+            </button>
+            <button class="thumb" type="button" data-number="02 / 06" data-caption="Old runes, older magic." aria-label="Preview: Old runes, older magic.">
+              <img src="assets/gallery-cave.jpg" alt="A torchlit stone chamber with a glowing blue flame and an ornate golden rune wall." width="1100" height="619" loading="lazy">
+            </button>
+            <button class="thumb" type="button" data-number="03 / 06" data-caption="A foothold in the frozen north." aria-label="Preview: A foothold in the frozen north.">
+              <img src="assets/gallery-mountain.jpg" alt="A Viking in fur armor approaching a snow-covered fortress during a blizzard." width="1100" height="619" loading="lazy">
+            </button>
+            <button class="thumb" type="button" data-number="04 / 06" data-caption="The dead keep their treasures." aria-label="Preview: The dead keep their treasures.">
+              <img src="assets/gallery-crypt.jpg" alt="A dark stone burial chamber lit by a single torch, with figures gathered around a tomb." width="1100" height="619" loading="lazy">
+            </button>
+            <button class="thumb" type="button" data-number="05 / 06" data-caption="A door back to the living." aria-label="Preview: A door back to the living.">
+              <img src="assets/gallery-portal.jpg" alt="A glowing portal framed by twisted wood at the edge of a torchlit camp at dusk." width="1100" height="619" loading="lazy">
+            </button>
+            <button class="thumb" type="button" data-number="06 / 06" data-caption="Forge, mend, and carry on." aria-label="Preview: Forge, mend, and carry on.">
+              <img src="assets/gallery-forge.jpg" alt="Vikings working at a crafting bench inside a timber longhouse, with armor stands and tools." width="1100" height="619" loading="lazy">
+            </button>
+          </div>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a class="brand" href="#top" aria-label="Valheim — back to top">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M12 2 3 7v10l9 5 9-5V7l-9-5Zm0 3.2 6 3.3v1.8l-6 9-6-9V8.5l6-3.3Zm0 4.1L9.2 12h1.9v5h1.8v-5h1.9L12 9.3Z" fill="currentColor"/>
+          </svg>
+          <span>Valheim</span>
+        </a>
+        <p>An unofficial fan showcase of the Tenth World.</p>
+      </div>
+      <nav aria-label="Footer">
+        <h2 class="footer__head">Explore</h2>
+        <ul>
+          <li><a href="#world">The world</a></li>
+          <li><a href="#biomes">Biomes</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2 class="footer__head">Find the game</h2>
+        <ul>
+          <li><a href="https://www.valheim.com/" target="_blank" rel="noopener">Official site</a></li>
+          <li><a href="https://store.steampowered.com/app/892970/Valheim/" target="_blank" rel="noopener">Steam page</a></li>
+          <li><a href="https://valheim.fandom.com/wiki/Valheim_Wiki" target="_blank" rel="noopener">Community wiki</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© <span id="year">2026</span> Tenth World Showcase. Made by fans, for fans.</p>
+      <p class="footer__credit">All game imagery © Iron Gate Studio / Coffee Stain Publishing, sourced from the <a href="https://store.steampowered.com/app/892970/Valheim/" target="_blank" rel="noopener">official Valheim Steam page</a>. This site is not affiliated with or endorsed by the rights holders.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
